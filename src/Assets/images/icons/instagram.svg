@@ -1,0 +1,19 @@
+<svg id="instagram-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.119" y1="0.881" x2="0.83" y2="0.17" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fee411"/>
+      <stop offset="0.052" stop-color="#fedb16"/>
+      <stop offset="0.138" stop-color="#fec125"/>
+      <stop offset="0.248" stop-color="#fe983d"/>
+      <stop offset="0.376" stop-color="#fe5f5e"/>
+      <stop offset="0.5" stop-color="#fe2181"/>
+      <stop offset="1" stop-color="#9000dc"/>
+    </linearGradient>
+  </defs>
+  <circle id="Oval" cx="15" cy="15" r="15" fill="url(#linear-gradient)"/>
+  <g id="Group" transform="translate(6.673 6.667)">
+    <path id="Shape" d="M5.147,16.66A5.15,5.15,0,0,1,0,11.514V5.147A5.15,5.15,0,0,1,5.147,0h6.367A5.15,5.15,0,0,1,16.66,5.147v6.367a5.15,5.15,0,0,1-5.146,5.146Z" fill="#fff"/>
+    <path id="Shape-2" data-name="Shape" d="M0,4.26A4.26,4.26,0,1,1,4.26,8.52,4.268,4.268,0,0,1,0,4.26Z" transform="translate(4.067 4.073)" fill="#fff"/>
+    <circle id="Oval-2" data-name="Oval" cx="0.72" cy="0.72" r="0.72" transform="translate(11.97 3.234) rotate(-9.208)" fill="#fff"/>
+  </g>
+</svg>

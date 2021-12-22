@@ -1,0 +1,12 @@
+<svg id="Group" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="32" viewBox="0 0 166 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.177" y1="0.206" x2="1" y2="1.501" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f257b1"/>
+      <stop offset="0.438" stop-color="#478ef0"/>
+      <stop offset="1" stop-color="#3251d9"/>
+    </linearGradient>
+  </defs>
+  <text id="Realw3alth" transform="translate(37 26)" fill="#fff" font-size="24" font-family="SegoeUI, Segoe UI" letter-spacing="-0.063em"><tspan x="0" y="0">REALW3ALTH</tspan></text>
+  <rect id="Rectangle" width="32" height="32" fill="url(#linear-gradient)"/>
+  <text id="LOGO" transform="translate(4 20)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">LOGO</tspan></text>
+</svg>

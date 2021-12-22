@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+@import "./variables.scss";
+@import "./Global.scss";
+
+// Components CSS
+
+@import "./components/header.scss";
+@import "./components/home.scss";
+@import "./components/traders.scss";
+@import "./components/pricing.scss";
+@import "./components/footer.scss";
+@import "./components/responsive.scss";
+@import "./components/preloader.scss"

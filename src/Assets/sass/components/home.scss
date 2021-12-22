@@ -1,0 +1,111 @@
+.home_section {
+  padding: 250px 0;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../../images/home-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .home-box-bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -35%;
+    filter: blur(44px);
+  }
+  .home_right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    left: 12%;
+    top: -18%;
+    position: absolute;
+    .home-box {
+      width: 200px;
+      height: 210px;
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      background: #00000033 0% 0% no-repeat padding-box;
+      border: 2px solid #707070;
+      border-radius: 30px;
+      opacity: 1;
+      &.one {
+        margin-top: 50px;
+        color: #D8D8D8;
+      }
+      &.two {
+        color: #f7931a;
+        border: 2px solid #f7931a;
+      }
+      &.three {
+        color: #D8D8D8;
+      }
+      &.four {
+        color: #627eea;
+        margin-top: -30px;
+        border: 2px solid #627eea;
+      }
+      .img-box {
+        width: 54px;
+        height: 54px;
+        margin: auto;
+        border-radius: 20px;
+        background-image: linear-gradient(
+          42deg,
+          #9945ff 0%,
+          #8a53f4 14%,
+          #6377d6 42%,
+          #24b0a7 79%,
+          #00d18c 99%,
+          #00d18c 100%
+        );
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .content {
+        span {
+          display: block;
+        }
+        .name {
+          font-size: 22px;
+          color: $white;
+          text-align: center;
+        }
+        .number {
+          font-size: 30px;
+          text-align: center;
+        }
+        .txt {
+          font-size: 16px;
+          color: $white;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.home_section .home_left .home_content {
+  h1 {
+    font-size: var(--font58);
+    color: $white;
+    font-family: initial;
+    .space {
+      width: 70px;
+      display: inline-block;
+    }
+  }
+  .btn-block {
+    margin-top: 40px;
+  }
+  p {
+    font-size: var(--font20);
+    color: $white;
+    margin: 20px 0px;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,13 @@
+<svg id="Group_3" data-name="Group 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="54" height="54" rx="20" fill="#f7931a"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle-2" data-name="Rectangle" width="54" height="54" rx="20" fill="#f7931a"/>
+  <g id="Group_3-2" data-name="Group 3" clip-path="url(#clip-path)">
+    <g id="BTC_Logo" transform="translate(13.14 9.407)">
+      <path id="Shape" d="M10.066,33.458l1.21-4.848c-.767-.191-1.55-.393-2.36-.612L7.7,32.868l-2.959-.739,1.226-4.923L0,25.7l1.471-3.4s2.183.583,2.154.54a1.077,1.077,0,0,0,1.358-.7L8.307,8.808A1.576,1.576,0,0,0,6.926,7.085c.046-.031-2.152-.536-2.152-.536l.788-3.164,5.975,1.481L12.75,0l2.96.738-1.188,4.77c.795.181,1.595.365,2.373.559l1.184-4.739,2.964.739L19.828,6.933c3.741,1.289,6.476,3.22,5.94,6.813l0,0A4.729,4.729,0,0,1,21.983,18.1c2.659,1.384,4.01,3.506,2.722,7.186-1.6,4.566-5.4,4.952-10.449,4L13.028,34.2Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+header {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    padding: 20px 65px;
+    .active_header {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .nav-link {
+        color: $white !important;
+        font-weight: 500;
+        font-family: "Outfit-Regular";
+        opacity: 0.67;
+        cursor: pointer;
+    }
+}

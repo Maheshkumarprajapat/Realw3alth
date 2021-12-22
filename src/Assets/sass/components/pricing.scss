@@ -1,0 +1,108 @@
+.pricing_section {
+  background-image: url(../../images/shape-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0px;
+  .pricing_content {
+    display: flex;
+    margin-top: 40px;
+
+    ul {
+      color: $white;
+      display: flex;
+      padding: 0px;
+      &:nth-child(1) {
+        margin-right: 70px;
+      }
+      li {
+        display: flex;
+        flex-direction: column;
+        &:first-child {
+          margin-left: 0px;
+        }
+        .card_top.card2 {
+          background-image: linear-gradient(
+            154deg,
+            #f257b1 0%,
+            #478ef0 44%,
+            #3251d9 100%
+          ) !important;
+          box-shadow: 8px -5px 5px #468bef52, -7px -11px 2px #468bef2e;
+        }
+        .card_top {
+          width: 330px;
+          height: 223px;
+          background-image: linear-gradient(166deg, #1fc582 0%, #1cb175 100%);
+          padding: 20px;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          box-shadow: -1px -5px 5px #1fc582, 1px 0px 2px #1fc582;
+
+          h4 {
+            color: $white;
+            font-weight: bold;
+            font-family: "Outfit";
+            text-transform: capitalize;
+          }
+          h5 {
+            color: $white;
+            margin-bottom: 20px !important;
+            span {
+              font-size: 40px;
+              font-weight: bold;
+            }
+          }
+          .button.button2 {
+            color: #468bef;
+          }
+          .button {
+            background-color: $white;
+            color: #1fc582;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 20px;
+            filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.15));
+          }
+        }
+        .details_list {
+          display: flex;
+          flex-direction: column;
+          background-color: rgba(255, 255, 255, 0.10196078431372549);
+          padding: 20px;
+          border-bottom-left-radius: 20px !important;
+          border-bottom-right-radius: 20px !important;
+          span.text_color {
+            color: gray !important;
+          }
+          span {
+            box-shadow: none;
+            display: flex;
+            flex-direction: row;
+            font-size: 15px;
+            margin-bottom: 18px;
+            &:last-child {
+              margin-bottom: 0px;
+            }
+            .check {
+              width: 21px;
+              padding: 4px;
+              margin-right: 10px;
+              height: 21px;
+              line-height: 21px;
+              background: #1ec17f;
+              border-radius: 20px;
+            }
+            .dash {
+              width: 20px;
+              height: 20px;
+              margin-right: 10px;
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}

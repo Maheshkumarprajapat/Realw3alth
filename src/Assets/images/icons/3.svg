@@ -1,0 +1,33 @@
+<svg id="Group_3" data-name="Group 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.854" y1="0.146" x2="0.146" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff2d55"/>
+      <stop offset="1" stop-color="#ffbc5b"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="54" height="54" rx="20" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a524b3"/>
+      <stop offset="1" stop-color="#ff2d55"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle-2" data-name="Rectangle" width="54" height="54" rx="20" fill="url(#linear-gradient)"/>
+  <g id="Group_3-2" data-name="Group 3" clip-path="url(#clip-path)">
+    <g id="Group" transform="translate(-2.8 6.75)">
+      <g id="big-pyramid" transform="translate(5.055 10.8)">
+        <path id="shadow" d="M0,0V20.25H16.875Z" transform="translate(16.875)" fill="url(#linear-gradient-3)"/>
+        <path id="light" d="M0,20.25H16.875V0Z" transform="translate(0)" fill="#fff"/>
+      </g>
+      <path id="end" d="M0,0C1.743.624,0,5.4,0,5.4H34A102.661,102.661,0,0,0,68,0Z" transform="translate(0 41.85)" fill="#ff2d55"/>
+      <path id="horizon" d="M0,0A32.565,32.565,0,0,0,6.875,5.4h41.25A32.565,32.565,0,0,0,55,0Z" transform="translate(2.4 36.45)" fill="#fc9965"/>
+      <path id="ground" d="M42.983,0H0A26.3,26.3,0,0,0,3.981,5.4H43V0Z" transform="translate(2.034 31.05)" fill="#ffbc5b"/>
+      <g id="small-pyramid" transform="translate(26.654 21.6)">
+        <path id="shadow-2" data-name="shadow" d="M0,0V14.85H12.38Z" transform="translate(12.366)" fill="url(#linear-gradient-3)"/>
+        <path id="light-2" data-name="light" d="M0,14.85H12.366V0Z" transform="translate(0)" fill="#fff"/>
+      </g>
+      <circle id="big-moon" cx="6.75" cy="6.75" r="6.75" transform="translate(32.271 4.05)" fill="#ffc95b"/>
+      <circle id="small-moon" cx="3.375" cy="3.375" r="3.375" transform="translate(18.555 0)" fill="#ffc95b"/>
+    </g>
+  </g>
+</svg>

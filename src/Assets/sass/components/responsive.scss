@@ -1,0 +1,80 @@
+@media (max-width: 991px) {
+  .navbar {
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #fff;
+  }
+  .home_section {
+    .home_left .home_content {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .home_right .home-box {
+      width: 140px;
+      height: 160px;
+    }
+    .content {
+      .name {
+        font-size: 16px;
+      }
+      .number {
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .home_section {
+    padding: 80px 0px 100px 0px;
+    .home_section .home-box-bg-img {
+      position: inherit;
+      top: inherit;
+    }
+    .home_right {
+      top: 20%;
+    }
+  }
+
+  .pricing_section .pricing_content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pricing_section .pricing_content ul:nth-child(1) {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .home_left {
+    text-align: center;
+  }
+  .footer_content {
+    text-align: center;
+  }
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer_section .footer_footer .footer_icons ul {
+    justify-content: center;
+  }
+}
+@media (max-width: 376px) {
+  .home_section .home_right {
+    left: 30px;
+  }
+  .traders_section {
+    padding: 40px 0px;
+    .ready_section {
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+    .ready_btn {
+      margin-top: 20px;
+    }
+  }
+}
